@@ -1,0 +1,115 @@
+Postcode,Districts,Avg Property Price,Avg Rental Price
+E1,"Mile End, Stepney, Whitechapel","659,278",483
+E2,"Bethnal Green, Shoreditch","454,292",657
+E3,"Bow, Bromley-by-Bow","490,185",473
+E4,"Chingford, Highams Park","409,644",325
+E5,Clapton,"662,577",514
+E6,"East Ham, Beckton","351,706",408
+E7,"Forest Gate, Upton Park","464,583",531
+E8,"Hackney, Dalston","791,357",393
+E9,"Hackney, Homerton","634,767",408
+E10,Leyton,"493,900",462
+E11,Leytonstone,"519,667",462
+E12,Manor Park,"368,006",309
+E13,Plaistow,"368,688",486
+E14,"Isle of Dogs, Millwall, Poplar","509,963",559
+E15,"Stratford, West Ham","458,781",519
+E16,"Canning Town, North Woolwich","377,596",413
+E17,Walthamstow,"520,439",340
+E18,South Woodford,"789,551",NaN
+E20,"Olympic Park, Stratford","550,000",738
+N1,"Barnsbury, Canonbury, Islington","675,169",568
+N2,East Finchley,"2,820,400",421
+N3,Finchley Central,"779,444","1,300"
+N4,"Finsbury Park, Manor House","654,700",362
+N5,Highbury,"778,833",645
+N6,Highgate,"1,188,636",452
+N7,Holloway,"668,983",445
+N8,"Crouch End, Hornsey","679,900",525
+N9,Lower Edmonton,"319,600",NaN
+N10,Muswell Hill,"1,058,525",420
+N11,"Friern Barnet, New Southgate","688,500",323
+N12,"North Finchley, Woodside Park","596,375",400
+N13,Palmers Green,"458,550",635
+N14,Southgate,"429,000",438
+N15,Seven Sisters,"540,625",462
+N16,"Stamford Hill, Stoke Newington","652,374",512
+N17,Tottenham,"407,150",427
+N18,Upper Edmonton,"322,500",NaN
+N19,"Archway, Tufnell Park","643,917",532
+N20,"Totteridge, Whetstone","707,490","1,109"
+N21,Winchmore Hill,"699,857",462
+N22,"Alexandra Palace, Wood Green","566,750",434
+NW1,"Camden Town, Regent's Park","1,044,750",614
+NW2,"Cricklewood, Neasden","503,654",422
+NW3,"Hampstead, Swiss Cottage","1,348,188",941
+NW4,"Brent Cross, Hendon","370,228",667
+NW5,Kentish Town,"853,944",485
+NW6,"Kilburn, Queens Park, West Hampstead","912,183",552
+NW7,Mill Hill,"624,111","2,765"
+NW8,St John's Wood,"2,291,521",670
+NW9,"Colindale, Kingsbury","423,000",367
+NW10,"Harlesden, Kensal Green, Willesden","655,360",714
+NW11,"Golders Green, Hampstead Garden Suburb","625,500",669
+SE1,"Bermondsey, Borough, Southwark, Waterloo","1,019,559",585
+SE2,Abbey Wood,"299,889",NaN
+SE3,"Blackheath, Westcombe Park","663,182",417
+SE4,"Brockley, Crofton Park, Honor Oak Park","553,650",NaN
+SE5,Camberwell,"590,864",427
+SE6,"Bellingham, Catford, Hither Green","444,125",NaN
+SE7,Charlton,"353,667",NaN
+SE8,Deptford,"504,500",482
+SE9,"Eltham, Mottingham","436,046",461
+SE10,Greenwich,"690,866",406
+SE11,Lambeth,"584,393",950
+SE12,"Grove Park, Lee","383,458",NaN
+SE13,"Hither Green, Lewisham","626,350",NaN
+SE14,"New Cross, New Cross Gate","423,438",288
+SE15,"Nunhead, Peckham","598,068",466
+SE16,"Rotherhithe, South Bermondsey, Surrey Docks","633,143",615
+SE17,"Elephant & Castle, Walworth","543,250",355
+SE18,"Plumstead, Woolwich","384,938",452
+SE19,"Crystal Palace, Upper Norwood","513,113",350
+SE20,"Anerley, Penge","438,708",NaN
+SE21,Dulwich,"900,000",831
+SE22,East Dulwich,"549,350",420
+SE23,Forest Hill,"512,771",468
+SE24,Herne Hill,"903,396",377
+SE25,South Norwood,"355,964",NaN
+SE26,Sydenham,"380,150",469
+SE27,"Tulse Hill, West Norwood","556,875",NaN
+SE28,Thamesmead,"276,050",NaN
+SW1,"Belgravia, Pimlico, Westminster","2,211,439",838
+SW2,"Brixton, Streatham Hill","744,067",329
+SW3,"Brompton, Chelsea","2,027,552",655
+SW4,Clapham,"633,375",595
+SW5,Earl's Court,"1,153,750",519
+SW6,"Fulham, Parson's Green","920,810",636
+SW7,South Kensington,"1,839,444",870
+SW8,"Nine Elms, South Lambeth","717,462",759
+SW9,"Brixton, Stockwell","493,929",437
+SW10,"West Brompton, World's End","2,914,444",762
+SW11,"Battersea, Clapham Junction","707,855",489
+SW12,Balham,"878,500",468
+SW13,"Barnes, Castelnau","1,541,818",800
+SW14,"East Sheen, Mortlake","1,633,714",312
+SW15,"Putney, Roehampton","764,382",448
+SW16,"Norbury, Streatham","480,325",427
+SW17,Tooting,"607,685",428
+SW18,"Earlsfield, Wandsworth","781,105",604
+SW19,"Merton, Wimbledon","937,766",673
+SW20,"Raynes Park, South Wimbledon","572,864",327
+W1,"Marylebone, Mayfair, Soho","1,703,327","1,126"
+W2,"Bayswater, Paddington","1,212,800",535
+W3,Acton,"674,143",517
+W4,Chiswick,"1,053,964",599
+W5,Ealing,"798,750",432
+W6,Hammersmith,"880,239",780
+W7,Hanwell,"592,425",NaN
+W8,Kensington,"1,649,444","1,097"
+W9,"Maida Vale, Warwick Avenue","953,125",660
+W10,"Ladbroke Grove, North Kensington","729,400",418
+W11,"Holland Park, Notting Hill","3,555,708",734
+W12,Shepherd's Bush,"619,423",501
+W13,West Ealing,"703,833",373
+W14,West Kensington,"930,947",499
