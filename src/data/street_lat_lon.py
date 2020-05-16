@@ -21,20 +21,22 @@ ppd_london = ppd_2019_clean[ppd_2019['Town_City']=='LONDON']
 ppd_grouped = ppd_london.groupby(['Street'])['Price'].mean().round(0).reset_index()
 ppd_grouped.columns = ['street', 'avg_price']
 
-with open ('../../data/processed/grouped_prices.csv', 'w', encoding='utf-8', newline='') as f:
+with open ('../../data/processed/ppd_london_2019.csv', 'w', encoding='utf-8', newline='') as f:
     column_headers = ['street', 'avg_price', 'latitude', 'longitude']
     writer = csv.DictWriter(f, fieldnames=column_headers)
     writer.writeheader()
     i = 0
     geolocator = Nominatim(user_agent='london_explorer')
 
-    for street_name in ppd_grouped['street'][:1000]:
+    for street_name in ppd_grouped['street']:
         avg_price = ppd_grouped['avg_price'][i]
         i += 1
-        latitude = geolocator.geocode(street_name).latitude
-        longitude = geolocator.geocode(street_name).longitude
-        print(i)
         try:
+            # LONDON is appended to the street name as in some cases the incorrect lat and lon were pulled
+            latitude = geolocator.geocode(street_name+', LONDON').latitude
+            longitude = geolocator.geocode(street_name+', LONDON').longitude
+            print(i)
+
             writer.writerow({'street': street_name, 'avg_price': avg_price,
                              'latitude': latitude, 'longitude': longitude})
         except Exception as e:
