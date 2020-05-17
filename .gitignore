@@ -2,5 +2,7 @@
 /data/external/pp-2018.csv
 /data/external/pp-2019.csv
 /data/external/pp-2020.csv
+/data/external/Geospatial_Coordinates.csv
 /data/external/voa-average-rent-borough.xls
 /secrets/foursquare_secrets.txt
+/data/processed/ppd_london_2019_backup.csv
