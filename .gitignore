@@ -6,3 +6,6 @@
 /data/external/voa-average-rent-borough.xls
 /secrets/foursquare_secrets.txt
 /data/processed/ppd_london_2019_backup.csv
+/secrets/mapbox_token.txt
+/data/processed/ppd_london_2019.csv
+/data/processed/london_venues.pkl
