@@ -9,3 +9,5 @@
 /secrets/mapbox_token.txt
 /data/processed/ppd_london_2019.csv
 /data/processed/london_venues.pkl
+/data/raw/london_boroughs.csv
+/data/raw/london_property_prices.csv
