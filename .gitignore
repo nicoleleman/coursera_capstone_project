@@ -2,12 +2,15 @@
 /data/external/pp-2018.csv
 /data/external/pp-2019.csv
 /data/external/pp-2020.csv
-/data/external/Geospatial_Coordinates.csv
-/data/external/voa-average-rent-borough.xls
+/data/external/london_boroughs_proper.geojson
+/data/external/land-registry-house-prices-borough.csv
+/data/external/land-registry-house-prices-ward.csv
 /secrets/foursquare_secrets.txt
 /data/processed/ppd_london_2019_backup.csv
 /secrets/mapbox_token.txt
 /data/processed/ppd_london_2019.csv
 /data/processed/london_venues.pkl
+/data/processed/ppd_london_2019_new.csv
+/data/processed/ppd_london_2019_new2.csv
 /data/raw/london_boroughs.csv
 /data/raw/london_property_prices.csv
