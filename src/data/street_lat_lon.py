@@ -29,22 +29,22 @@ ppd_grouped = ppd_london.groupby(['Street', 'District', 'Postcode_Prefix'])['Pri
 ppd_grouped.columns = ['street', 'district', 'postcode_prefix', 'avg_price']
 #print(ppd_grouped)
 
-with open ('../../data/processed/ppd_london_2019_new2.csv', 'w', encoding='utf-8', newline='') as f:
+with open ('../../data/processed/ppd_london_2019_new1.csv', 'w', encoding='utf-8', newline='') as f:
     column_headers = ['street', 'district', 'postcode_prefix', 'avg_price', 'latitude', 'longitude']
     writer = csv.DictWriter(f, fieldnames=column_headers)
     writer.writeheader()
-    i = 5185
+    i = 0
     geolocator = Nominatim(user_agent='london_explorer')
 
-    for street_name in ppd_grouped['street'][5185:15555]:
+    for street_name in ppd_grouped['street']:
         avg_price = ppd_grouped['avg_price'][i]
         district = ppd_grouped['district'][i]
         postcode_prefix = ppd_grouped['postcode_prefix'][i]
         i += 1
         try:
             # LONDON is appended to the street name as in some cases the incorrect lat and lon were pulled
-            latitude = geolocator.geocode(street_name + ', ' + postcode_prefix + ', LONDON').latitude
-            longitude = geolocator.geocode(street_name + ', ' + postcode_prefix + ', LONDON').longitude
+            latitude = geolocator.geocode(street_name + ', ' + postcode_prefix + ', LONDON, UK').latitude
+            longitude = geolocator.geocode(street_name + ', ' + postcode_prefix + ', LONDON, UK').longitude
             print(i)
 
             writer.writerow({'street': street_name, 'postcode_prefix': postcode_prefix, 'district': district,
