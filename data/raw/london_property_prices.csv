@@ -1,4 +1,4 @@
-postcode,districts,avg_property_price,avg_rental_price
+postcode_prefix,districts,avg_property_price,avg_rental_price
 E1,"Mile End, Stepney, Whitechapel","659,278",481
 E2,"Bethnal Green, Shoreditch","454,292",655
 E3,"Bow, Bromley-by-Bow","490,185",473
