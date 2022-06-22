@@ -35,7 +35,7 @@ matplotlib==3.2.1
 minchin.pelican.jinja-filters==1.0.4
 minchin.pelican.plugins.image-process==1.2.0
 nbformat==5.0.6
-numpy==1.18.3
+numpy==1.22.0
 pandas==1.0.3
 parso==0.7.0
 pelican==4.1.1
